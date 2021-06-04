@@ -1,0 +1,192 @@
+
+nav{
+    background-color: lightcoral;
+    width: 99vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    div{
+        position: relative;
+        width: 70vw;
+        height: 70vh;
+        background-color: lightgray;
+        #search{
+            #searchIcon{
+                display: block;
+                span{
+                    padding: 5px;
+                    display: block;
+                    width: 50px;
+                    height:50px;
+                    position: relative;
+                }
+                ul{
+                    border: 1px solid #000;
+                    background-color: #fff;
+                    border-radius: 5px;
+                    position: absolute;
+                    top:50px;
+                    left:101px;
+                    width:50px;
+                    padding: 0;
+                    margin: 0;
+                    border: none;
+                    li{
+                        margin: 6px;
+                        list-style: none;
+                        display: none;
+                    }
+                }
+            }
+            margin-left: 100px;
+            border: 1px solid;
+            background-color: #fff;
+            border-radius: 5px;
+            display: flex;
+            width:600px;
+            height:60px;
+            input{
+                outline: none;
+                border: none;
+                width:740px;
+                font-size: 20px;
+            }
+            #enter{
+                margin: 5px;
+                height:50px;
+                width:60px;
+                i{
+                    font-size: 30px;
+                    margin-top: 8px;
+                }
+            }
+        }
+        #settings{
+            right:0px;
+            bottom:0;
+            position: absolute;
+            display: block;
+            width:50px;
+            height:50px;
+            i{
+                font-size: 30px;
+            }
+            ul{
+                padding: 0;
+                background-color: cyan;
+                list-style: none;
+                bottom:-16px;
+                right:-102px;
+                position: absolute;
+                li{
+                    display: none;
+                    border: 1px solid #fff;
+                    margin-top: 100px;
+                    margin-bottom: 40px;
+                    width:100px;
+                    height:20px;
+                }
+            }
+        }
+    }
+    aside{
+        width:14.5vw;
+        height:90vh;
+        background-color: lightseagreen;
+        position: relative;
+        min-width: 200px;
+        #tag{
+            display: block;
+            background-color: darkred;
+            width:40px;
+            height:40px;
+            top:0x;
+            left:0px;
+            position: absolute;
+        }
+        ul{
+            padding: 0;
+            background-color: darkred;
+            list-style: none;
+            top:40px;
+            left:0px;
+            position: absolute;
+            margin: 0;
+            li{
+                display: none;
+                margin-left: 10px;
+                border: 1px solid #fff;
+                margin-bottom: 20px;
+                text-align: left;
+                font-size: 15px;
+                font-family: YouYuan;
+                line-height: 1.5em;
+                width:fit-content;
+                height:fit-content;
+                font-weight: bold;
+                position: relative;
+                padding-bottom: 20px;
+                min-width: 200px;
+            }
+        }
+    }
+}
+
+header{
+    margin-top: 2.5vh;
+    margin-left: 14.5vw;
+    position: fixed;
+    background-color: lightgreen;
+    width:70vw;
+    height:10vh;
+}
+
+footer{
+    position: fixed;
+    background-color: lightgreen;
+    width:99vw;
+    height:5vh;
+}
+.hidden{
+    overflow: hidden;
+}
+.iconSize{
+    width:30px;
+    height:35px;
+    margin:5px 5px 5px 0px;
+}
+#alertOption{
+    display: none;
+    background-color: rgba(0,0,0, 0.5);
+    top:0;
+    left:0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    #com{
+        position: relative;
+        background-color: darkkhaki;
+        width: 600px;
+        height: 400px;
+        top:calc(50vh - 200px);
+        left:calc(50vw - 300px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        input[name="com"]{
+            display: block;
+            width: 500px;;
+            height:300px;
+        }
+        div{
+            
+            background-color: darkred;
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            top:0;
+            right:0;
+        }
+    }
+
+}

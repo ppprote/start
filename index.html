@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/jquery-1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <!-- 顶部栏-时钟 -->
+    <header>
+        <!-- 时钟 -->
+        <span></span>
+        <!-- 日期 -->
+        <span></span>
+        <!-- 天气 -->
+        <span></span>
+    </header>
+
+    <nav>
+        <!-- 笔札 -->
+        <aside>
+            <span id="tag">
+            </span>
+            <ul>
+            </ul>
+        </aside>
+
+        <div id="body">
+            <!-- 搜索框 -->
+            <span id="search">
+                <span  id="searchIcon">
+                    <span>
+                        <img src="icon/bing.jpg" class="iconSize">
+                    </span>
+                    <ul>
+
+                        <li id="bing"><span><img class="iconSize" src="icon/bing.jpg"></span></li>
+                        <li id="baidu"><span><img class="iconSize" src="icon/baidu.jpg"></span></li>
+                        <li id="fanyi"><span><img class="iconSize" src="icon/google.jpg"></img:src></span></li>
+
+                    </ul>
+                </span>
+                <input type="text" name="search" />
+                <span id="enter"><i class="fa fa-search" aria-hidden="true"></i></span>
+
+
+
+            </span>
+            <!-- 工作日志+个性化 -->
+            <span id="personal">
+            </span>
+            <!-- 上拉菜单，书签+设置 -->
+            <span id="settings">
+                <i class="fa fa-cog" aria-hidden="true"></i>
+                <span>
+                    <ul>
+                        <li><span>书签</span></li>
+                        <li><span>个性化</span></li>
+                        <li><span>管理笔札</span></li>
+                    </ul>
+                </span>
+            </span>
+            
+        </div>
+    </nav>
+
+    <!-- 尾部 -->
+    <footer>
+    </footer>
+
+    <div id="alertOption">
+
+        <div class="option" id="com">
+            <div></div>
+
+            <span>
+                <span>添加笔札</span>
+                <input type="text" name="com" />
+                <button>添加</button>
+            </span>
+
+
+        </div>
+
+    </div>
+</body>
+</html>
+<script>
+
+
+
+
+
+</script>
+<script src="./js/search.js"></script>
+<script src="./js/option.js"></script>
+<script src="./js/window.js"></script>
+<script src="./js/tag.js"></script>
